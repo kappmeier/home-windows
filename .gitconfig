@@ -1,0 +1,10 @@
+[gpg]
+	format = ssh
+[user]
+	signingkey = ~/.ssh/id_ed25519_signing.pub
+	email = jp.kappmeier@gmail.com
+	name = Jan-Philipp Kappmeier
+[commit]
+	gpgsign = true
+[core]
+	autocrlf = false
